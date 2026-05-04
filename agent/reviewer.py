@@ -14,7 +14,7 @@ GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
 llm = ChatGroq(
     api_key=GROQ_API_KEY,
-    model_name='llama3-70b-8192',
+    model_name='llama-3.3-70b-versatile',
     temperature=0.2
 )
 
